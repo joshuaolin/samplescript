@@ -21,8 +21,8 @@ public class regression {
 	public void EssilorPro_Amera() {
 		
 		elementDictionary.setup("https://www.essilorpro.io/amera/auth/login");
-		elementDictionary.fillInput(loginPage.getUsernameField(), "AMERA_PORTAL");
-		elementDictionary.fillInput(loginPage.getPasswordField(), "WelcomeDig202!");
+		elementDictionary.fillInput(loginPage.getUsernameField(), "AMERAPORTAL");
+		elementDictionary.fillInput(loginPage.getPasswordField(), "Welcome_Dig202!");
 		elementDictionary.clickElement(loginPage.getLoginButton());
 
 		elementDictionary.clickElement(homePage.getAnnouncementCloseButton());
